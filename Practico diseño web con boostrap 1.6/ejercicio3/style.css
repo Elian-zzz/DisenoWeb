@@ -1,0 +1,95 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(76, 193, 197);
+    background: fixed;
+    max-height: max-content;
+    margin: 0;
+    overflow-x: hidden;
+}
+#titulo-principal{
+    color: aliceblue;
+    text-shadow: 2px 2px 4px grey;
+    margin-left: 3vmin;
+}
+#boton-menu{
+    position: absolute;
+    top: 50%;
+    left: 95%;
+    transform: translate(-50%,-50%);
+    margin-right: 5vmin;
+}
+#imagen-danza{
+    scale: (1.0);
+}
+.contenedor-descripcion-imagen{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: bisque;
+    border: 0.5vmin solid rgb(59, 83, 63);
+}
+.titulo-descripcion{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 3vmin;
+    
+}
+.descripcion{
+    padding-top: 6vmin;
+    padding-bottom: 3vimn;
+    margin: 0 2vmin 2vimn 0;
+}
+.contenedor{
+margin: 2vmin 0;
+}
+#boton-fijo{
+    position: fixed;
+    color: whitesmoke;
+    box-sizing: content-box;
+    top: 70%;
+    left: 12vmin;
+    transform: translate(-50%,-50%);
+}
+#boton-contacto{
+    background-color: rgba(128, 0, 128, 0.726);
+    box-sizing: content-box;
+    transition: 250ms ease-in;
+    border: 0.5vmin solid rgba(255, 0, 0, 0.726);
+    box-shadow: 1px 1px 1vmin 1px rgb(179, 47, 47);
+}
+#boton-contacto:hover{
+    transition: 250ms ease;
+    transform: scale(1.1);
+    background-color: purple;
+    border: 0.5vmin solid rgba(255, 0, 0, 0.973);
+
+}
+.destacado{
+    background-color: rgb(47, 73, 95);
+    border: 2px solid rgb(59, 83, 63);
+    box-shadow: 5px 5px 1px gold;
+    margin-bottom: 3vmin;
+
+}
+
+#titulo-actividad-destacada{
+    display: flex;
+    justify-content: center;
+}
+.contenedor-descripcion-imagen-destacada{
+    padding: 2vmin;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: rgb(235, 226, 215);
+}
+.row >{
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
